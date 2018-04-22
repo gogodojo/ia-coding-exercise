@@ -60,13 +60,15 @@
         <script type="text/javascript" src="jasmine/lib/jasmine-3.1.0/boot.js"></script>
 
 
-        <!-- application source scripts -->
-        <script src="js/config.js"></script>
-        <script src="js/main.js"></script>
+        <!-- app scripts -->
+        <script src="js/app/index.js" type="module"></script>
 
-        <!-- include spec files here... -->
+
+        <!-- app specs -->
         <script src="spec/Jasmine.js"></script>
-        <script src="spec/main.spec.js"></script>
+        <script src="spec/index.spec.js" type="module"></script>
+        <script src="spec/LogoController.spec.js" type="module"></script>
+        <script src="spec/appConfig.spec.js" type="module"></script>
 
         <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
         <script>
